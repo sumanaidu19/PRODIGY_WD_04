@@ -165,7 +165,7 @@ p{
         flex-direction: column;
     }
     .projects{
-        margin-top:100%;
+        margin-top:120%;
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-columns: 1fr;
