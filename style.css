@@ -1,0 +1,436 @@
+.image1{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+.image1:hover{
+    transform: scale(1.4);
+    border-style: double;
+    border-color: aliceblue;
+    border-radius: 0;
+    transition: all 0.5s ease-in-out;
+
+}
+a:hover{
+    font-size: larger;
+    color: azure !important;
+    text-transform: uppercase;
+    
+}
+body{
+    background-image: url('./images/black-geometric-memphis-social-banner_53876-116843.avif');
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+.home{
+
+    padding-left: 20%;
+    padding-top: 20%;
+    margin-bottom: 20%;
+
+}
+h1{
+    font-size: clamp(30px,8vw,100px);
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+h1:hover{
+    text-transform: capitalize;
+}
+.about{
+    background-image: url('./images/black-geometric-memphis-social-banner_53876-116843.avif');
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    margin-top: -5%;
+
+}
+p{
+    color: aliceblue;
+}
+
+
+.paragraph{
+    padding-top: 4%;
+    align-content: normal;
+    width:100%;
+}
+.aboutme{
+    color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 5px 5px 10px beige;
+}
+.myskills{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+.avatar{
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
+.imageavatar{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin-left: 5%;
+    
+}
+.imageavatar:hover{
+    transform: scale(1.4);
+    border-style: double;
+    border-color: aliceblue;
+    box-shadow: 5px 2px rgb(151, 121, 121);
+
+
+}
+
+.skills{
+    width: 100%;
+    max-width: 600px;
+    padding:0 20px;
+    padding-left: 0;
+    margin-top: 10%;
+
+    
+}
+.skill-name{
+    text-transform: uppercase;
+    margin: 20px 0;
+    
+}
+.skill-name:hover{
+    filter: drop-shadow(2px 2px 3px white);
+}
+.skill-bar{
+    height: 14px;
+    background: #282828;
+    border-radius: 3px;
+}
+.skill-per{
+    height: 14px;
+    background: #d13639;
+    border-radius: 3px;
+    position: relative;
+}
+
+.skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: #f1f1f1;
+    border-radius: 4px;
+    font-size: 12px;
+    top: -35px;
+    right: 0;
+}
+.aboutskills{
+    display: flex;
+    flex-direction: row;
+
+    
+}
+@media (max-width: 760px){
+    .sumasocial{
+        padding-top: 30%;
+        padding-left: -20%;
+    }
+    .about{
+        margin-bottom: 40%;
+    }
+    .myskills{
+        margin-top: 10%;
+    }
+    .skillheading{
+        padding-top: 95%;
+    }
+    .myskills{
+        display: flex;
+        flex-direction: column;
+    }
+    .skills{
+        padding-top: 150%;
+        margin-left: -80%;
+    }
+    
+    .headprojects{
+        display: flex;
+        flex-direction: column;
+    }
+    .projects{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    } 
+    .dweep{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    } 
+    .dweep1{
+        margin-left: 20%;
+    }
+    .matter1{
+        margin-top: 40%;
+        margin-left: -70%;
+    }
+    .fixed{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .fixed1{
+        margin-left: 20%;
+    }
+    .matter2{
+        margin-top: 40%;
+        margin-left: -60%;
+    }
+    .calculator{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    } 
+    .calci1{
+        margin-left: 20%;
+    }
+    .matter3{
+        margin-top: 40%;
+        margin-left: -60%;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    
+}
+.myskills{
+    background-image: url('./images/black-geometric-memphis-social-banner_53876-116843.avif');
+    background-repeat:no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+
+
+}
+.image3{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin-top: -3%;
+    margin-left: 3%;
+    
+}
+.image3:hover{
+    transform: scale(1.4);
+    border-style: double;
+    border-color: aliceblue;
+    box-shadow: 5px 2px rgb(151, 121, 121);
+
+}
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50%;
+    margin-top: -20%;
+    margin-bottom: 0%;
+    padding-top: 20%;
+
+}
+.linkden{
+    width: 40px;
+    height: 40px;
+    margin-left: 1%;
+    object-fit: contain;
+    mix-blend-mode:lighten;
+}
+.github{
+    width: 40px;
+    height: 40px;
+    margin-left: 1%;
+    object-fit: contain;
+    mix-blend-mode:lighten;
+}
+.telegram{
+    width: 40px;
+    height: 40px;
+    margin-left: 1%;
+    object-fit: contain;
+    mix-blend-mode:lighten;
+}
+.email{
+    width: 40px;
+    height: 40px;
+    margin-left: 1%;
+    object-fit: contain;
+    mix-blend-mode:lighten;
+}
+.gmail{
+    width: 40px;
+    height: 40px;
+    margin-left: 1%;
+    mix-blend-mode:lighten;
+}
+.sumasocial{
+    display: flex;
+    flex-direction: column;
+    margin-top: -9%;
+    margin-left: 17%;
+
+}
+.suma{
+    margin-left: 50%;
+    margin-top: -20%;
+    color: aqua;
+}
+
+.linkden:hover{
+    filter: drop-shadow(2px 2px 3px white);
+}
+.telegram:hover{
+    filter: drop-shadow(2px 2px 3px white);
+}
+.github:hover{
+    filter: drop-shadow(2px 2px 3px white);
+}
+.email:hover{
+    filter: drop-shadow(2px 2px 3px white);
+}
+.gmail:hover{
+    filter: drop-shadow(2px 2px 3px white);
+}
+.headpro{
+    color: bisque;
+    text-shadow: 5px 5px 10px beige;
+    margin: 5%;
+}
+.project1{
+    height: 150px;
+    width: 200px;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    border: 5px solid black;
+}
+.project1:hover{
+    transform: scale(1.1);
+}
+.project2:hover{
+    transform: scale(1.1);
+}
+.project3:hover{
+    transform: scale(1.1);
+}
+.matter:hover{
+    transform: scale(1.01);
+}
+.footer{
+    color: darkorange;
+    margin-left: 15%;
+}
+.dweep{
+    border-color: goldenrod;
+    border-style: double;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.matter{
+    display: flex;
+    flex-direction: column;
+}
+.project2{
+    height: 150px;
+    width: 200px;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    border: 5px solid black;
+}
+.fixed{
+    border-color: goldenrod;
+    border-style: double;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.project3{
+    height: 150px;
+    width: 200px;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    border: 5px solid black;
+}
+.calculator{
+    border-color: goldenrod;
+    border-style: double;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.myprojects{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contactme{
+    background-image: url('./images/black-geometric-memphis-social-banner_53876-116843.avif');
+    background-repeat:no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    
+
+
+}
+.contact{
+    margin-top: 45%;
+    margin-left: 30%;
+
+}
+.contactid{
+    color: aqua;
+    margin-left: 15%;
+}
+.contactid:hover{
+    filter: drop-shadow(2px 2px 3px aqua);
+}
+.mail:hover{
+    filter: drop-shadow(2px 2px 3px white);
+}
+.link1{
+    height: 40px;
+    width: 40px;
+}
+.linkden1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 35%;
+}
+.link1:hover{
+    filter: drop-shadow(2px 2px 3px white);
+}
+.linkid1{
+    margin-top: 1%;
+}
+.linkid:hover{
+    filter: drop-shadow(2px 2px 3px white);
+}
+
+
